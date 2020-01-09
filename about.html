@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> About Us </title>
+    <meta charset="utf-8" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Jerome Estrella, Mikhail Ganzon, Rain Lee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"> </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li class=""> <a href="https://www.senate.gov.ph/lisdata/2517921693!.pdf" target="_blank"> Read the Bill Here </a> </li>
+            <li class=""> <a href="index.html"> Home </a> </li>
+            <li class=""> <a href="sogie.html"> About the Bill </a> </li>
+            <li class=""> <a href="opinions.html"> Opinions </a> </li>
+            <li class=""> <a href="lgbt.html"> About the LGBT Community </a> </li>
+            <li class=""> <a href="PHlgbt.html"> LGBT in the Philippines </a> </li>
+            <li class="active"> <a href="about.html"> About the Authors </a> </li>
+		        <li class="dropdown">
+			        <a class="dropdown-toggle" data-toggle="dropdown">Language<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a onclick="window.location.reload(true)">English</a></li>
+                  <li><a onclick="tabsFilipinoTranslation(); authorsFilipinoTranslation();">Filipino</a></li>
+                </ul>
+		        </li>
+		      </ul>
+          <input class="navbar-btn" type = "image" src="https://cdn6.aptoide.com/imgs/8/c/1/8c1df2595802dbcb2ee2b12ec70e2938_icon.png?w=240" height=30px width=30px id = "toggler">
+				</div>
+			</nav>
+      
+      <div class=col-sm-9>
+        <div class = "profile">
+          <img src=https://scontent.fmnl6-2.fna.fbcdn.net/v/t1.0-9/69691869_2481708545197655_3432305384973402112_n.jpg?_nc_cat=106&_nc_oc=AQn6iWVKcBFbnIV_hOhPB_6VFLgfnt7W2cPQGEOpXAntjNbQpPUzJX7bdIhzTItFYPs&_nc_ht=scontent.fmnl6-2.fna&oh=c6de51b5d2ac85abc869f12b319d979b&oe=5E2111BC alt = "Jerome Estrella">
+          <h2> Jerome Estrella </h2>
+            <p> He/Him || 14 || Ateneo de Manila Grade School <br>
+            I think that the SOGIE Equality Bill would be mainly beneficial for people. 
+            I am particularly in favor for the education systems they will implement, 
+            because misinformation is the main cause of the negative reputation of 
+            marginalized communities like the LGBTQ.</p>
+        </div>
+
+        <div class = "profile">
+          <img src=https://u.ph.edim.co/5e20/140703721_1_140.jpg alt = "Mikhail Ganzon">
+          <h2> Mikhail Ganzon </h2>
+            <p> He/Him || 16 || University of the Philippines Integrated School <br>
+            In my opinion, I think the discriminatory acts need to be more broad,
+            and not limited to only gender discrimination as the bill implies.
+            Furthermore, I hope that this will encourage Filipinos to be more
+            open to foreign ideas, as we are a religious country and there are
+            still some things that the older generation consider as "taboo".
+            All in all though, I appreciate the bill and I would hope for it
+            to be passed, as this will help many closeted people be less ashamed
+            to be who they really are, as I personally know some people like them.</p>
+        </div>
+
+        <div class = "profile">
+          <img src=https://u.ph.edim.co/91bd/127376234_4_140.png alt = "Rain Lee">
+          <h2> Rain Lee </h2>
+            <p> She/Her || 14 || St. Mary's Academy of Sta. Ana, Manila <br>
+            The SOGIE Bill aims to protect the interests of not only the
+            LGBTQI+ community, but of every Filipino as well, and that's
+            why I agree with its implementation. It only has the good
+            intention of allowing everyone to have their own freedom of
+            expression without being discriminated due to the stereotypes
+            in our society. </p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+      <form id="rateus">
+      <fieldset>
+		  <legend> Rate our website! </legend>
+		  <label for=rating>Rating (1 to 10): </label><br><input name=rating type ="number" min=1 max=10 required>
+      <label for=reason>Reason for rating: </label><br><input name=reason type=text maxlength=300 required>
+		  <br><input type=button name = "authSub" value = "Submit">
+      </fieldset>
+      </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Opinions </title>
+    <meta charset="utf-8" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Jerome Estrella, Mikhail Ganzon, Rain Lee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"> </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li class=""> <a href="https://www.senate.gov.ph/lisdata/2517921693!.pdf" target="_blank"> Read the Bill Here </a>
+            </li>
+            <li class=""> <a href="index.html"> Home </a> </li>
+            <li class=""> <a href="sogie.html"> About the Bill </a> </li>
+            <li class="active"> <a href="opinions.html"> Opinions </a> </li>
+            <li class=""> <a href="lgbt.html"> About the LGBT Community </a> </li>
+            <li class=""> <a href="PHlgbt.html"> LGBT in the Philippines </a> </li>
+            <li class=""> <a href="about.html"> About the Authors </a> </li>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown">Language<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li><a onclick="window.location.reload(true)">English</a></li>
+                <li><a onclick="opinionsFilipinoTranslation();">Filipino</a></li>
+                </ul>
+              </li>
+            </ul>
+          <input class="navbar-btn" type = "image" src="https://cdn6.aptoide.com/imgs/8/c/1/8c1df2595802dbcb2ee2b12ec70e2938_icon.png?w=240" height=30px width=30px id = "toggler">
+        </div>
+      </nav>
+      
+      <div class="alert alert-danger">
+        <b>Please take note:</b> Inappropriate messages will not be posted on the message board.
+      </div>
+      
+      <div class="col-sm-6">
+		
+        <div class="opinions">
+          <p>
+          I find the law a bit repetitive, since there are already laws <br>
+          regarding equal rights rights. But I think it'd be better if it <br>
+          was passed because it protects people; not just the lgbt community <br>
+          but also those who are discriminated, such as single parents. <br>
+          - Anonymous Pisay Student [Alias: "e"]
+          </p>
+
+          <p>
+          I am in favor of the SOGIE Equality Bill, . . .I think that we <br>
+          should aim to properly educate people and discuss this topic <br>
+          so that the stigma about it is lessened. We should also be active in fighting <br>
+          for its approval because it is very much needed in our society today. <br>
+          - Anonymous Pisay Student [Alias: "the ultimate eboy"]
+          </p>
+
+          <p>
+          I think that the sogie bill needs to be passed because this bill <br>
+          will basically protect everybody's rights to be who they are. while <br>
+          the bill is still imperfect, its general concept, which is to promote <br>
+          equality and remind everyone that we all have equal rights, <br>
+          is something that i am all for. <br>
+          - Anonymous Pisay Student [Alias: ":3"]
+          </p>
+
+          <p>
+          It is something long overdue, considering the fact that most of the <br>
+          Filipinos are still conservative and closed-minded with the community.<br>
+          With the approval of the said bill, it would help the LGBTQIA+ community <br>
+          in establishing a connection with our modern society without being treated differently. <br>
+          - Anonymous Pisay Student [Alias: "crush mo"]
+          </p>
+
+          <p>
+          I believe it's quite flawed in the way that reforms will be applied, <br>
+          but overall I appreciate the idea and what they're trying to <br>
+          accomplish. I just hope everyone can cooperate to end discrimination. <br>
+          - Anonymous Pisay Student [Alias: "halaman"]
+          </p>
+
+          <p>
+          In my opinion the SOGIE Bill is important because all humans have <br>
+          the right to be respected. However, I wish that it was not needed and <br>
+          that respect would be common knowledge. Since it is not, and there are <br>
+          humans who violate others rights especially the rights of those who identify <br>
+          as a different gender and have a different sexual orientation, the SOGIE Bill <br>
+          is an eye-opener and can hopefully reduce the number of cases of discrimination. <br>
+          - Anonymous Pisay Student
+          </p>
+        </div>   
+      </div>
+    <div class=col-sm-6>
+    <form id="opinionback">
+			<div>
+				<fieldset>
+					<legend> Opinions </legend>
+					<label> Name/Alias: </label>
+					<input pattern="[A-Za-z ]{1,}" maxlength=25 type = "text" name = "Name" value="Anonymous"> </br>
+					<label> Occupation: </label>
+					<div>
+						<input type = "radio" id = "occupation1" name = "Occupation" value = "PSHS Student" required>
+						<label for = "Occupation1"> PSHS Student </label>
+						<input type = "radio" id = "occupation2" name = "Occupation" value = "PSHS Teacher" required>
+						<label for = "Occupation2"> PSHS Teacher </label>
+						<input type = "radio" id = "occupation3" name = "Occupation" value = "PSHS Staff" required>
+						<label for = "Occupation3"> PSHS Staff </label>
+						<input type = "radio" id = "occupation4" name = "Occupation" value = "None of the choices" required>
+						<label for = "Occupation4"> None of these </label>
+					</div>
+					<input id="opiniontext" maxlength=500 type = "text" name = "Opinions" placeholder = "Type your opinions here!" required> </br>
+					<input type=button name = "Submissive" value = "Submit">
+		      </fieldset>
+			</div>
+		</form>
+    </div>
+    </div>
+   </body>
+</html>
