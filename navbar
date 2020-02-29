@@ -1,0 +1,31 @@
+<div class="col-sm-12">
+		    <nav class="navbar navbar-default">
+			    <div class="container-fluid">
+				    <ul class="nav navbar-nav">
+              
+              <li class="active"> <a href="index.html"> Home </a> </li>
+              <li class=""> <a href="sogie.html"> About the Bill </a> </li>
+              <li class=""> <a href="opinions.html"> Opinions </a> </li>
+              <li class=""> <a href="lgbt.html"> About the LGBT Community </a> </li>
+              <li class=""> <a href="PHlgbt.html"> LGBT in the Philippines </a> </li>
+              <li class=dropdown>
+					      <a class="dropdown-toggle" data-toggle="dropdown"> About the Authors <span class="caret></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="jerome.html">Jerome Estrella</a></li>
+                  <li><a href="mikey.html">Mikey Ganzon</a></li>
+                  <li><a href="rain.html">Rain Lee</a></li>
+                </ul>
+              </li>
+              <li class=""> <a href="https://www.senate.gov.ph/lisdata/2517921693!.pdf" target="_blank"> Read the Bill Here </a></li>
+		          <li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown">Language<span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+                 <li><a onclick="window.location.reload(true)">English</a></li>
+                 <li><a onclick="tabsFilipinoTranslation(); homeFilipinoTranslation();">Filipino</a></li>
+			          </ul>
+		          </li>
+		        </ul>
+					 <input class="navbar-btn" type = "image" src="https://cdn6.aptoide.com/imgs/8/c/1/8c1df2595802dbcb2ee2b12ec70e2938_icon.png?w=240" height=30px width=30px id = "toggler">
+					</div>
+				</nav>
+      </div>
