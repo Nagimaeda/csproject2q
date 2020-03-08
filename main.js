@@ -143,7 +143,7 @@ var statisticsFilipinoTranslation = function () {
     document.getElementsByTagName('p')[10].innerHTML = "26 na bansa ang ginawang ligal ang same-sex marriage, at ang pinakabago ay ang Australia noong Disyembre 2017. Sa Pilipinas, " +
       "na-finalize na ng gobyerno ang kanilang desisyon na hindi maaaring gawing ligal ang same-sex marriage sa bansa."; 
   
-  document.getElementsByTagName('div')[2].innerHTML = '<b> Ang mga sumusunod na bansa ay patuloy pa ring ginagawang ligal ang parusang kamatayan para sa homosekswalidad: </b>' +
+  document.getElementById("gaykillers").innerHTML = '<b> Ang mga sumusunod na bansa ay patuloy pa ring ginagawang ligal ang parusang kamatayan para sa homosekswalidad: </b>' +
     "Iran, Sudan, Saudi Arabia, Yemen, Somalia, Nigeria, Syria and Iraq.";
 } 
 
