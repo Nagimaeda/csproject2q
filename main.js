@@ -1,45 +1,46 @@
 window.onload = function(){
   document.getElementById("toggler").addEventListener("click", nightMode)
   if (window.location.pathname == "/opinions.html"){
-  document.getElementById("opinionback").Submissive.addEventListener("click", makeSure)}
+    document.getElementById("opinionback").Submissive.addEventListener("click", makeSure);
+  }
   if (window.location.pathname == "/about.html"){
     document.getElementById("rateus").authSub.addEventListener("click", makeSure2);
   }
 }
 
-var makeSure = function(){
+var makeSure = function(){ // feedback
   if (confirm("Please confirm your response.\n" +
     "\nName: " +   document.getElementById("opinionback").Name.value  +
     "\nOccupation: " + document.getElementById("opinionback").Occupation.value  +
-    "\nMessage: " + document.getElementById("opinionback").Opinions.value)){
-    document.getElementById("opinionback").submit();
-  }else{
-    
+    "\nMessage: " + document.getElementById("opinionback").Opinions.value)) {
+      document.getElementById("opinionback").submit();
   }
 }
 
-var makeSure2 = function(){
+var makeSure2 = function(){ // website rating
   if (confirm("Please confirm your response.\n" +
     "\nRating: " + document.getElementById("rateus").rating.value +
     "\nReason: " + document.getElementById("rateus").reason.value )) {
-    document.getElementById("rateus").submit();
-}
+      document.getElementById("rateus").submit();
+  }
 }
 
 var nightMode = function(){
   document.body.classList.toggle("dark");
-  switch(localStorage.getItem("night") ){
-         case null:
-         localStorage.setItem("night", true)
-    break;
+  switch(localStorage.getItem("night")) {
+    case null:
+      localStorage.setItem("night", true)
+      break;
     case true: 
-    localStorage.night = false
-    break;
+      localStorage.night = false
+      break;
     case false: 
-    localStorage.night = true
-    break;
+      localStorage.night = true
+      break;
+  }
 }
-}
+
+// Filipino Translations
 
 var tabsFilipinoTranslation = function() {
   document.getElementById("linkToBill").innerHTML = " Basahin ang Batas ";
@@ -101,7 +102,7 @@ var sogieFilipinoTranslation = function() {
 
 var opinionsFilipinoTranslation = function () {
   document.getElementById("warning").innerHTML = '<b> Mangyaring tandaan: </b>' +
-    "Ang mga mensaheng hindi kanais-nais ay hindi ilalagay sa message board.";
+    "Ang mga mensaheng hindi kanais-nais ay hindi ilalagay sa talaan ng mga mensahe.";
   
   document.getElementsByTagName('label')[0].innerHTML = "Pangalan/Alyas:";
   document.getElementsByTagName('label')[1].innerHTML = "Okupasyon:";
