@@ -31,13 +31,13 @@ var nightMode = function(){
 }
 
 var tabsFilipinoTranslation = function() {
-  document.getElementById("linkToBill").innerHTML = ' Basahin ang Batas ";
-  document.getElementById("billExplain").innerHTML = ' Explanasyon ng Batas ';
+  document.getElementById("linkToBill").innerHTML = " Basahin ang Batas ";
+  document.getElementById("billExplain").innerHTML = " Explanasyon ng Batas "
   document.getElementById("opinions").innerHTML = ' Mga Opinyon ';
   document.getElementById("LGBTComm").innerHTML = 'Tungkol sa mga LGBT ';
   document.getElementById("LGBTPH").innerHTML = ' LGBT sa Pilipinas ';
-  document.getElementById("aboutAuthors").innerHTML = ' Tungkol sa mga May Akda ';
-  document.getElementById("language").innerHTML = 'Wika <span class="caret"></span>';
+  document.getElementById("aboutAuthors").innerHTML = " Tungkol sa mga May Akda ";
+  document.getElementById("language").innerHTML = "Wika <span class="caret"></span>";
   document.getElementById("aboutBill").innerHTML = " Tungkol sa Batas <span class="caret"></span> ";
 }
 
