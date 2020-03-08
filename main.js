@@ -29,7 +29,6 @@ var nightMode = function(){
   document.body.classList.toggle("dark");
   localStorage.night ^= true
   }
-}
 
 // Filipino Translations
 
