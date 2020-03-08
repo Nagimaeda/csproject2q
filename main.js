@@ -31,7 +31,7 @@ var nightMode = function(){
   if (localStorage.getItem("night") == null){
    localStorage.setItem("night", true) 
   }else{
-  localStorage.getItem("night") ^= true
+  localStorage.getItem("night") = !localStorage.getItem("night") 
   }
 }
 
