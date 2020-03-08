@@ -28,6 +28,10 @@ var makeSure2 = function(){
 
 var nightMode = function(){
   document.body.classList.toggle("dark");
+  if (localStorage.getItem("night") == null){
+   localStorage.setItem("night", true) 
+  }
+  localstorage.getItem("night") ^= true
 }
 
 var tabsFilipinoTranslation = function() {
