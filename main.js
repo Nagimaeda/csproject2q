@@ -28,7 +28,7 @@ var makeSure2 = function(){
 
 var nightMode = function(){
   document.body.classList.toggle("dark");
-  switch(localStorage.getItem("night")){
+  switch(localStorage.getItem("night") ){
          case null:
          localStorage.setItem("night", true)
     break;
@@ -40,7 +40,11 @@ var nightMode = function(){
     break;
 }
 }
-
+if (localStorage.getItem("night") == true){
+ document.body.classList.add("dark") 
+}else{
+ document.body.classList.remove("dark") 
+}
 var tabsFilipinoTranslation = function() {
   document.getElementById("linkToBill").innerHTML = " Basahin ang Batas ";
   document.getElementById("billExplain").innerHTML = " Explanasyon ng Batas "
