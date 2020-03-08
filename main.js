@@ -28,7 +28,7 @@ var makeSure2 = function(){
 
 var nightMode = function(){
   document.body.classList.toggle("dark");
-  switch(localStorage.getItem("night"){
+  switch(localStorage.getItem("night")){
          case null:
          localStorage.setItem("night", true)
     break;
