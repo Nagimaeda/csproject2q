@@ -42,7 +42,7 @@ var nightMode = function(){
 }
 if (localStorage.getItem("night") == true){
  document.body.classList.add("dark") 
-}else{
+}else if(localStorage.getItem("night") == false){
  document.body.classList.remove("dark") 
 }
 var tabsFilipinoTranslation = function() {
