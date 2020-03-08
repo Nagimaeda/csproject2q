@@ -40,11 +40,7 @@ var nightMode = function(){
     break;
 }
 }
-if (localStorage.getItem("night") == true){
- document.body.classList.add("dark") 
-}else if(localStorage.getItem("night") == false){
- document.body.classList.remove("dark") 
-}
+
 var tabsFilipinoTranslation = function() {
   document.getElementById("linkToBill").innerHTML = " Basahin ang Batas ";
   document.getElementById("billExplain").innerHTML = " Explanasyon ng Batas "
@@ -194,4 +190,9 @@ var authorsFilipinoTranslation = function () {
     "sumasang-ayon ako sa pagpapatupad nito. Ito lamang ay may mabuting " +
     "intensyon na magpahintulot o hayaang malayang ipahayag ng lahat ang kanilang " +
     "ekspresyon nang hindi nakararanas ng diskriminasyon dahil sa mga pamantayan ng ating lipunan.";
+}
+if (localStorage.getItem("night") == true){
+ document.body.classList.add("dark") 
+}else if(localStorage.getItem("night") == false){
+ document.body.classList.remove("dark") 
 }
