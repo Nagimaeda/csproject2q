@@ -61,12 +61,12 @@ var tabsFilipinoTranslation = function() {
 var homeFilipinoTranslation = function() {
   document.getElementsByTagName('p')[0].innerHTML = "Mabuhay! Sa website na ito'y nais naming linawin ang mga maling impormasyon ukol sa SOGIE Equality Bill (House Bill No. 4982). Ito rin ay naglalaman ng mga impormasyon tungkol sa LGBT Community, lalo na ang mga nasa Pilipinas.";
   
-  document.getElementsByClassName('btn')[0].innerHTML = "Basahin ang Batas";
-  document.getElementsByClassName('btn')[1].innerHTML = "Tungkol sa Batas";
-  document.getElementsByClassName('btn')[2].innerHTML = "Mga Opinyon";
-  document.getElementsByClassName('btn')[3].innerHTML = "Tungkol sa mga LGBT";
-  document.getElementsByClassName('btn')[4].innerHTML = "LGBT sa Pilipinas";
-  document.getElementsByClassName('btn')[5].innerHTML = "Tungkol sa mga May Akda";
+  document.getElementById('pdf').src = "https://i.imgur.com/6u3BxTv.png";
+  document.getElementById('risa').src = "https://i.imgur.com/NF7Qbi8.png";
+  document.getElementById('chat').src = "https://i.imgur.com/Qd2Lq9A.png";
+  document.getElementById('flag').src = "https://i.imgur.com/6hMEAfc.png";
+  document.getElementById('babaylan').src = "https://i.imgur.com/14n3m7t.png";
+  document.getElementById('pshs').src = "https://i.imgur.com/JratEex.png";
 }
 
 var sogieFilipinoTranslation = function() {
