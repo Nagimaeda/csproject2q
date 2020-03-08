@@ -100,7 +100,7 @@ var sogieFilipinoTranslation = function() {
 }
 
 var opinionsFilipinoTranslation = function () {
-  document.getElementsByTagName('div')[2].innerHTML = '<b> Mangyaring tandaan: </b>' +
+  document.getElementById("warning").innerHTML = '<b> Mangyaring tandaan: </b>' +
     "Ang mga mensaheng hindi kanais-nais ay hindi ilalagay sa message board.";
   
   document.getElementsByTagName('label')[0].innerHTML = "Pangalan/Alyas:";
