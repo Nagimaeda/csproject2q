@@ -33,10 +33,10 @@ var nightMode = function(){
          localStorage.setItem("night", true)
     break;
     case true: 
-    localStorage.getItem("night") = false
+    localStorage.night = false
     break;
     case false: 
-    localStorage.getItem("night") = true
+    localStorage.night = true
     break;
 }
 }
@@ -191,8 +191,8 @@ var authorsFilipinoTranslation = function () {
     "intensyon na magpahintulot o hayaang malayang ipahayag ng lahat ang kanilang " +
     "ekspresyon nang hindi nakararanas ng diskriminasyon dahil sa mga pamantayan ng ating lipunan.";
 }
-if (localStorage.getItem("night") == true){
+if (localStorage.night == true){
  document.body.classList.add("dark") 
-}else if(localStorage.getItem("night") == false){
+}else if(localStorage.night == false){
  document.body.classList.remove("dark") 
 }
