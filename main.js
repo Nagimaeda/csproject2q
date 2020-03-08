@@ -6,6 +6,11 @@ window.onload = function(){
   if (window.location.pathname == "/about.html"){
     document.getElementById("rateus").authSub.addEventListener("click", makeSure2);
   }
+  if (localStorage.night == 1){
+ document.body.classList.add("dark") 
+}else if(localStorage.night == 0){
+ document.body.classList.remove("dark") 
+}
 }
 
 var makeSure = function(){ // feedback
@@ -184,8 +189,4 @@ var authorsFilipinoTranslation = function () {
     "intensyon na magpahintulot o hayaang malayang ipahayag ng lahat ang kanilang " +
     "ekspresyon nang hindi nakararanas ng diskriminasyon dahil sa mga pamantayan ng ating lipunan.";
 }
-if (localStorage.night == 1){
- document.body.classList.add("dark") 
-}else if(localStorage.night == 0){
- document.body.classList.remove("dark") 
-}
+
