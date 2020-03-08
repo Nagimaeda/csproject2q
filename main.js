@@ -128,9 +128,9 @@ var statisticsFilipinoTranslation = function () {
     document.getElementsByTagName('p')[3].innerHTML = "Ang Pilipinas ay isa sa mga &quot;gay-friendly&quot; na bansa sa Asya, na may 73% ng mga mayor de edad na naniniwalang " + 
       "ang homosekswalidad ay karapatdapat na tanggapin sa ating lipunan, sinundan naman ito ng Japan na may 54% na boto, at South Korea na may 39% na boto.";
     document.getElementsByTagName('p')[4].innerHTML = "Mula sa 35 na bansa sa Asya na kasama sa pag-aaral ng NQAPIA (National Queer Asian Pacific Islander Alliance):";
-      document.getElementsByTagName('li')[10].innerHTML = "6 na bansa lamang ang may mga batas laban sa diskriminasyon tungkol sa LGBT, na may dalawang hindi sigurado.";
-      document.getElementsByTagName('li')[11].innerHTML = "13 na bansa ang may mga batas na ginagawang ligal ang pagpapalit ng kasarian, na may tatlong hindi sigurado.";
-      document.getElementsByTagName('li')[12].innerHTML = "18 na bansa ang ginawang ligal ang pakikipagtalik sa kaparehong kasarian, na may tatlong hindi sigurado.";
+      document.getElementById("point1").innerHTML = "6 na bansa lamang ang may mga batas laban sa diskriminasyon tungkol sa LGBT, na may dalawang hindi sigurado.";
+      document.getElementById("point2").innerHTML = "13 na bansa ang may mga batas na ginagawang ligal ang pagpapalit ng kasarian, na may tatlong hindi sigurado.";
+      document.getElementById("point3").innerHTML = "18 na bansa ang ginawang ligal ang pakikipagtalik sa kaparehong kasarian, na may tatlong hindi sigurado.";
     document.getElementsByTagName('p')[5].innerHTML = "Grapiko ng mga bansa sa Asya na may mga batas laban sa diskriminasyon.";
   
   document.getElementsByTagName('h4')[2].innerHTML = "Buong Mundo";
