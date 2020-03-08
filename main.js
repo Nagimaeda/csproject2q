@@ -30,8 +30,9 @@ var nightMode = function(){
   document.body.classList.toggle("dark");
   if (localStorage.getItem("night") == null){
    localStorage.setItem("night", true) 
+  }else{
+  localStorage.getItem("night") ^= true
   }
-  localstorage.getItem("night") ^= true
 }
 
 var tabsFilipinoTranslation = function() {
