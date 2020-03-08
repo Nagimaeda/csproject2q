@@ -18,7 +18,7 @@ if (localStorage.language == null){
 var setFil = function(){
  localStorage.language = "filipino" 
 }
-var setEng = function{
+var setEng = function(){
 localStorage.language = "english"
 }
 var makeSure = function(){ // feedback
