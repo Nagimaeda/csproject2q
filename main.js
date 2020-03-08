@@ -27,16 +27,7 @@ var makeSure2 = function(){ // website rating
 
 var nightMode = function(){
   document.body.classList.toggle("dark");
-  switch(localStorage.getItem("night")) {
-    case null:
-      localStorage.setItem("night", true)
-      break;
-    case true: 
-      localStorage.night = false
-      break;
-    case false: 
-      localStorage.night = true
-      break;
+  localStorage.night ^= true
   }
 }
 
@@ -194,8 +185,8 @@ var authorsFilipinoTranslation = function () {
     "intensyon na magpahintulot o hayaang malayang ipahayag ng lahat ang kanilang " +
     "ekspresyon nang hindi nakararanas ng diskriminasyon dahil sa mga pamantayan ng ating lipunan.";
 }
-if (localStorage.night == true){
+if (localStorage.night == 1){
  document.body.classList.add("dark") 
-}else if(localStorage.night == false){
+}else if(localStorage.night == 0){
  document.body.classList.remove("dark") 
 }
