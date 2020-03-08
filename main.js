@@ -31,13 +31,13 @@ var nightMode = function(){
 }
 
 var tabsFilipinoTranslation = function() {
-  document.getElementsByTagName('li')[0].innerHTML = '<a href="https://www.senate.gov.ph/lisdata/2517921693!.pdf" target="_blank"> Basahin ang Batas </a>';
-  document.getElementsByTagName('li')[2].innerHTML = '<a href="sogie.html"> Tungkol sa Batas </a>';
-  document.getElementsByTagName('li')[3].innerHTML = '<a href="opinions.html"> Mga Opinyon </a>';
-  document.getElementsByTagName('li')[4].innerHTML = '<a href="lgbt.html"> Tungkol sa mga LGBT </a>';
-  document.getElementsByTagName('li')[5].innerHTML = '<a href="PHlgbt.html"> LGBT sa Pilipinas </a>';
-  document.getElementsByTagName('li')[6].innerHTML = '<a href="about.html"> Tungkol sa mga May Akda </a>';
-  document.getElementsByTagName('a')[7].innerHTML = 'Wika <span class="caret"></span>';
+  document.getElementById("linkToBill").innerHTML = '<a href="https://www.senate.gov.ph/lisdata/2517921693!.pdf" target="_blank"> Basahin ang Batas </a>';
+  document.getElementById("billExplain").innerHTML = '<a href="sogie.html"> Explanasyon ng Batas </a>';
+  document.getElementById("opinions").innerHTML = '<a href="opinions.html"> Mga Opinyon </a>';
+  document.getElementById("LGBTComm").innerHTML = '<a href="lgbt.html"> Tungkol sa mga LGBT </a>';
+  document.getElementById("LGBTPH").innerHTML = '<a href="PHlgbt.html"> LGBT sa Pilipinas </a>';
+  document.getElementById("aboutAuthors").innerHTML = '<a href="about.html"> Tungkol sa mga May Akda </a>';
+  document.getElementById("language").innerHTML = 'Wika <span class="caret"></span>';
 }
 
 var homeFilipinoTranslation = function() {
