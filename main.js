@@ -8,9 +8,9 @@ window.onload = function(){
   }
   if (localStorage.night == 1){
  document.body.classList.add("dark") 
-}else if(localStorage.night == 0){
+}else{ if(localStorage.night == 0){
  document.body.classList.remove("dark") 
-}
+}}
 }
 if (localStorage.language == null){
  localStorage.setItem("langauge", "english") 
