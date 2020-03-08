@@ -30,8 +30,12 @@ var nightMode = function(){
   document.body.classList.toggle("dark");
   if (localStorage.getItem("night") == null){
    localStorage.setItem("night", true) 
-  }else{
-  localStorage.getItem("night") = !localStorage.getItem("night") 
+  }
+  if (localStorage.getItem("night") == true){
+    localStorage.getItem("night") = false
+  }
+  if (localStorage.getItem("night") == false){
+    localStorage.getItem("night") = true
   }
 }
 
