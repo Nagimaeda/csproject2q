@@ -38,6 +38,7 @@ var tabsFilipinoTranslation = function() {
   document.getElementById("LGBTPH").innerHTML = '<a href="PHlgbt.html"> LGBT sa Pilipinas </a>';
   document.getElementById("aboutAuthors").innerHTML = '<a href="about.html"> Tungkol sa mga May Akda </a>';
   document.getElementById("language").innerHTML = 'Wika <span class="caret"></span>';
+  document.getElementById("aboutBill").innerHTML = " Tungkol sa Batas <span class="caret"></span> ";
 }
 
 var homeFilipinoTranslation = function() {
