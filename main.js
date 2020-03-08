@@ -50,6 +50,7 @@ var tabsFilipinoTranslation = function() {
   document.getElementById("aboutAuthors").innerHTML = " Tungkol sa mga May Akda <span class='caret'></span>";
   document.getElementById("language").innerHTML = "Wika <span class='caret'></span>";
   document.getElementById("aboutBill").innerHTML = " Tungkol sa Batas <span class='caret'></span> ";
+  document.getElementById("news").innerHTML = " Mga Balita "
 }
 
 var homeFilipinoTranslation = function() {
