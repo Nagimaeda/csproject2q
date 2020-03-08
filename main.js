@@ -28,15 +28,17 @@ var makeSure2 = function(){
 
 var nightMode = function(){
   document.body.classList.toggle("dark");
-  if (localStorage.getItem("night") == null){
-   localStorage.setItem("night", true) 
-  } else 
-    if (localStorage.getItem("night") == true){
+  switch(localStorage.getItem("night"){
+         case null:
+         localStorage.setItem("night", true)
+    break;
+    case true: 
     localStorage.getItem("night") = false
-  }else 
-    if (localStorage.getItem("night") == false){
+    break;
+    case false: 
     localStorage.getItem("night") = true
-  }
+    break;
+}
 }
 
 var tabsFilipinoTranslation = function() {
