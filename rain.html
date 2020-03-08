@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html>
 
+  <head>
+    <title> SOGIE Equality Bill </title>
+    <meta charset="utf-8" />
+    <meta name="description" content="A website featuring information about the SOGIE Bill and the LGBT Community in the Philippines.">
+    <meta name="keywords" content="SOGIE, LGBT, SOGIE Bill, Philippines LGBT, Gay rights, SOGIE PH">
+    <meta name="author" content="Jerome Estrella, Mikhail Ganzon, Rain Lee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"> </script>
+	  
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157709155-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-157709155-7');
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="col-sm-12">
+	 <nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	   <ul class="nav navbar-nav">
+        <li class="active" id="home"> <a href="index.html"> Home </a> </li>
+        <li class="dropdown"> 
+			<a class="dropdown-toggle" data-toggle="dropdown" id="aboutBill"> About the Bill <span class="caret"></span> </a> 
+			<ul class="dropdown-menu">
+				<li><a href="https://www.senate.gov.ph/lisdata/2517921693!.pdf" target="_blank" id="linkToBill">Read the bill here</a></li>
+				<li><a href="sogie.html" id="billExplain">Explaining the Bill</a></li>
+			</ul>
+	    </li>
+        <li class=""> <a href="opinions.html" id="opinions"> Opinions </a> </li>
+			<li><a href="lgbt.html" id="LGBTComm">LGBT Community</a></li>
+			<li><a href="PHlgbt.html" id="LGBTPH">LGBT in the Philippines</a></li>
+		   <li><a href="news.html" id="news"> News </a></li>
+        <li class=dropdown>
+		<a class="dropdown-toggle" data-toggle="dropdown" id="aboutAuthors"> About the Authors <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                  <li><a href="jerome.html">Jerome Estrella</a></li>
+                  <li><a href="mikey.html">Mikey Ganzon</a></li>
+                  <li><a href="rain.html">Rain Lee</a></li>
+        </ul>
+        </li>
+	    <li class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" id="language">Language<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+            <li><a onclick="window.location.reload(true)">English</a></li>
+            <li><a onclick="tabsFilipinoTranslation(); homeFilipinoTranslation();">Filipino</a></li>
+		</ul>
+		</li>
+		</ul>
+		<input class="navbar-btn" type = "image" src="https://cdn6.aptoide.com/imgs/8/c/1/8c1df2595802dbcb2ee2b12ec70e2938_icon.png?w=240" height=30px width=30px id = "toggler">
+		</div>
+		</nav>
+</div>
+
+    </div>
+  </body>
+</html>
