@@ -12,7 +12,15 @@ window.onload = function(){
  document.body.classList.remove("dark") 
 }
 }
-
+if (localStorage.language == null){
+ localStorage.setItem("langauge", "english") 
+}
+var setFil = function(){
+ localStorage.language = "filipino" 
+}
+var setEng = function{
+localStorage.language = "english"
+}
 var makeSure = function(){ // feedback
   if (confirm("Please confirm your response.\n" +
     "\nName: " +   document.getElementById("opinionback").Name.value  +
