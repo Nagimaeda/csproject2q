@@ -14,11 +14,8 @@ background-color:aliceblue;
 }
 
 div.profile {
-	border-style: dotted;
-	border-color: black;
-	margin-top: 50px;
   float:left;
-  width:70%;
+  width:100%;
 
 }
 
@@ -32,15 +29,12 @@ div.profile {
 .profile h2 {
 	display: inline;
 	margin: auto;
-	animation-name: appear_h2;
-	animation-duration: 0.5s;
 }
 
 .profile p {
 	display: block;
 	text-align: left;
-	animation-name: appear_p;
-	animation-duration: 0.5s;
+
 }
 
 
