@@ -13,11 +13,6 @@ background-color:aliceblue;
   float: right;
 }
 
-div.profile {
-  float:left;
-  width:100%;
-
-}
 
 .profile img{
 	height: 200px;
@@ -26,12 +21,12 @@ div.profile {
 	float:left; 
 }
 
-.profile h2 {
+.profile h1 {
 	display: inline;
 	margin: auto;
 }
 
-.profile p {
+.profile h3 {
 	display: block;
 	text-align: left;
 
