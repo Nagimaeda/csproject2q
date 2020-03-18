@@ -66,7 +66,7 @@ var homeFilipinoTranslation = function() {
   document.getElementById('chat').src = "https://i.imgur.com/Qd2Lq9A.png";
   document.getElementById('flag').src = "https://i.imgur.com/6hMEAfc.png";
   document.getElementById('babaylan').src = "https://i.imgur.com/14n3m7t.png";
-  document.getElementById('pshs').src = "https://i.imgur.com/JratEex.png";
+  document.getElementById('news').src = "https://i.imgur.com/SYMcyM9.png";
 }
 
 var sogieFilipinoTranslation = function() {
