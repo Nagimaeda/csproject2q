@@ -106,10 +106,7 @@ a button {
   color:black;
 }
 
-.dark .profile{
-  border-color:white;
-  border-style:dotted;
-}
+
 #opiniontext, #rateus input:nth-of-type(2){
   width:100%;
   height:100px;
