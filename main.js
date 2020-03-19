@@ -55,7 +55,6 @@ var tabsFilipinoTranslation = function() {
   document.getElementById("aboutAuthors").innerHTML = " Tungkol sa mga May Akda <span class='caret'></span>";
   document.getElementById("language").innerHTML = "Wika <span class='caret'></span>";
   document.getElementById("aboutBill").innerHTML = " Tungkol sa Batas <span class='caret'></span> ";
-  document.getElementById("news").innerHTML = " Mga Balita "
 }
 
 var homeFilipinoTranslation = function() {
@@ -173,6 +172,10 @@ var lgbtFilipinoTranslation = function () {
     document.getElementsByTagName('p')[5].innerHTML = '<b> Geraldine Roman </b> <br>' +
       "Si Unang Kinatawan ng Distritong Bataan Geraldine Roman ay ang unang transgender na babaing nahalal sa Kongreso ng Pilipinas. " +
       "Bilang isang miyembro ng LGBT, siya ay isa sa mga matapat na tagapagtanggol ng SOGIE Bill.";
+}
+
+var newsFilipinoTranslation = function () {
+  document.getElementById('summary').innerHTML = "Buod ng mga huling balita:";
 }
 
 var jeromeFilipinoTranslation = function () {
