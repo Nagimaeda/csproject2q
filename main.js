@@ -175,14 +175,17 @@ var lgbtFilipinoTranslation = function () {
       "Bilang isang miyembro ng LGBT, siya ay isa sa mga matapat na tagapagtanggol ng SOGIE Bill.";
 }
 
-var authorsFilipinoTranslation = function () {
-  document.getElementsByTagName('p')[0].innerHTML = 'He/Him || 14 || Ateneo de Manila Grade School <br>' +
+var jeromeFilipinoTranslation = function () {
+  document.getElementsByTagName('p')[0].innerHTML = 'He/Him || 15 || Ateneo de Manila Grade School <br>' +
     "Sa tingin ko, mas may benepisyo sa mga mamamayan ang SOGIE Equality Bill. " +
     "Higit na ginugusto ko na may mga sistema ng edukasyon na balak nitong ipatupad, " +
     "dahil ang maling impormasyon ay ang pinakamalaking dahilan para sa negatibong " +
     "reputasyon ng mga dinidiskriminadong komunidad, bukod pa sa LGBTQ.";
   
-  document.getElementsByTagName('p')[1].innerHTML = 'He/Him || 16 || University of the Philippines Integrated School <br>' +
+}
+
+var mikeyFilipinoTranslation = function () {
+  document.getElementsByTagName('p')[0].innerHTML = 'He/Him || 16 || University of the Philippines Integrated School <br>' +
     "Sa aking opinyon, ang mga kilos ng diskriminasyon ay dapat maging mas malawak ang sakop, " + 
     "at hindi limitado lamang sa diskriminsayon sa kasarian, na tinutukoy ng batas. " +
     "Dagdag pa, inaasahan ko na mas hihikayatin nito ang mga Filipino na maging bukas sa mga ideya sa labas, " +
@@ -190,7 +193,10 @@ var authorsFilipinoTranslation = function () {
     "Sa kabuuan, gusto kong maipasa ang batas na ito, dahil makatutulong ito sa madaming mga nagtatagong tao na mabawasan ang kanilang hiya " + 
     "sa pagiging kanilang sarili, dahil may kilala akong mga taong ganito.";
     
-  document.getElementsByTagName('p')[2].innerHTML = "She/Her || 14 || St. Mary's Academy of Sta.Ana, Manila <br>" +
+}
+
+var rainFilipinoTranslation = function () {
+  document.getElementsByTagName('p')[0].innerHTML = "She/Her || 15 || St. Mary's Academy of Sta.Ana, Manila <br>" +
     "Ang pangunahing hangad ng SOGIE Bill ay ang maprotektahan ang mga interes, hindi lamang ng " +
     "mga nasa Komunidad ng LGBTQI+, kundi pati na rin sa lahat ng Pilipino, kaya't " +
     "sumasang-ayon ako sa pagpapatupad nito. Ito lamang ay may mabuting " +
