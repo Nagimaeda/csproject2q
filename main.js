@@ -204,3 +204,8 @@ var rainFilipinoTranslation = function () {
     "ekspresyon nang hindi nakararanas ng diskriminasyon dahil sa mga pamantayan ng ating lipunan.";
 }
 
+var rateFilipinoTranslation = function () {
+  document.getElementsByTagName('legend')[0].innerHTML = "Bigyan ng grado ang aming website!";
+  document.getElementsByTagName('label')[0].innerHTML = "Grado (1 to 10):";
+  document.getElementsByTagName('label')[1].innerHTML = "Rason ng grado:";
+}
