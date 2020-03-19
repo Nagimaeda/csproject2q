@@ -106,6 +106,7 @@ var opinionsFilipinoTranslation = function () {
   document.getElementById("warning").innerHTML = '<b> Mangyaring tandaan: </b>' +
     "Ang mga mensaheng hindi kanais-nais ay hindi ilalagay sa talaan ng mga mensahe.";
   
+  document.getElementsByTagName('legend')[0].innerHTML = "Mga Opinyon";
   document.getElementsByTagName('label')[0].innerHTML = "Pangalan/Alyas:";
   document.getElementsByTagName('label')[1].innerHTML = "Okupasyon:";
   document.getElementsByTagName('label')[2].innerHTML = "Mag-aaral ng PSHS";
