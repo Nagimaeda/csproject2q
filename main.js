@@ -41,6 +41,7 @@ var makeSure2 = function(){ // website rating
 var nightMode = function(){
   document.body.classList.toggle("dark");
   localStorage.night ^= true
+  document.getElementById('chat').src = "https://i.imgur.com/7r0I6vc.png";
   }
 
 // Filipino Translations
