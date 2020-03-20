@@ -152,7 +152,7 @@ var statisticsFilipinoTranslation = function () {
 } 
 
 var lgbtFilipinoTranslation = function () {
-  document.getElementsByTagName('h2')[0].innerHTML = "Mga Makabuluhang Grupong Pro-LGBT sa Pilipinas";
+  document.getElementsByTagName('h2')[0].innerHTML = "Mga Makabuluhang Pro-LGBT na Grupo sa Pilipinas";
     document.getElementsByTagName('p')[0].innerHTML = '<b> Task Force Pride Philippines </b> <br>' +
       "Ang opisyal na tagapag-ayos ng taunang LGBT Pride March ay ang Task Force Pride (TFP) Philippines. " +
       "Isa itong network ng mga grupo at indibidwal na mga tagasuporta ng Komunidad ng LGBT, at mga " +
@@ -177,6 +177,10 @@ var lgbtFilipinoTranslation = function () {
 
 var newsFilipinoTranslation = function () {
   document.getElementById('summary').innerHTML = "Buod ng mga huling balita:";
+  document.getElementsByTagName('p')[0].innerHTML = "Ang SOGIE Equality Bill ay hindi pa naaprubahan, at sa kasamaang palad " +
+    "ay mukhang hindi ito maaaprubahan sa ngayon, ayon nga sa isinaad ng ating Presidente ng Senato na si Tito Sotto: " +
+    "&quot;Anti-discrimination on persons, p'wede. [P]ero focused on gays, which the SOGIE bill is, and religious and academic freedom impeded; plus smuggling of same-sex marriage? No chance!&quot; " +
+    "Gamit ang impormasyon sa website na ito, baka ika'y makagagawa ng isang opinyong mas may kaalaman kaysa kay Presidente Sotto."
 }
 
 var jeromeFilipinoTranslation = function () {
