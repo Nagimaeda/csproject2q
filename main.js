@@ -46,9 +46,9 @@ var nightMode = function(){
 
 // Filipino Translations
 
-var tabsFilipinoTranslation = function() {
-  document.getElementById("linkToBill").innerHTML = " Basahin ang Batas ";
-  document.getElementById("billExplain").innerHTML = " Explanasyon ng Batas "
+var tabsFilipinoTranslation = function() { // navbar translation | applied to all pages
+  document.getElementById("linkToBill").innerHTML = ' Basahin ang Batas ';
+  document.getElementById("billExplain").innerHTML = ' Explanasyon ng Batas ';
   document.getElementById("opinions").innerHTML = ' Mga Opinyon ';
   document.getElementById("LGBTComm").innerHTML = 'Tungkol sa mga LGBT ';
   document.getElementById("LGBTPH").innerHTML = ' LGBT sa Pilipinas ';
@@ -58,9 +58,10 @@ var tabsFilipinoTranslation = function() {
   document.getElementById("aboutBill").innerHTML = " Tungkol sa Batas <span class='caret'></span> ";
 }
 
-var homeFilipinoTranslation = function() {
+var homeFilipinoTranslation = function() { // homepage translation
   document.getElementsByTagName('p')[0].innerHTML = "Mabuhay! Sa website na ito'y nais naming linawin ang mga maling impormasyon ukol sa SOGIE Equality Bill (House Bill No. 4982). Ito rin ay naglalaman ng mga impormasyon tungkol sa LGBT Community, lalo na ang mga nasa Pilipinas.";
   
+  // "translation" of the images
   document.getElementById('pdf').src = "https://i.imgur.com/6u3BxTv.png";
   document.getElementById('risa').src = "https://i.imgur.com/NF7Qbi8.png";
   document.getElementById('chat').src = "https://i.imgur.com/Qd2Lq9A.png";
@@ -69,7 +70,7 @@ var homeFilipinoTranslation = function() {
   document.getElementById('newsIcon').src = "https://i.imgur.com/SYMcyM9.png";
 }
 
-var sogieFilipinoTranslation = function() {
+var sogieFilipinoTranslation = function() { // "Explaining the Bill" / "Explanasyon ng Batas" translation
   document.getElementsByTagName('h2')[0].innerHTML = "Ano ang SOGIE?";
     document.getElementsByTagName('p')[0].innerHTML = 'Ang ibig sabihin ng SOGIE ay <em> Sexual Orientation and Gender Identity/Expression</em>. <br>' +
       '<br /> <b> Sexual Orientation </b> - Tumutukoy sa pagkakilanlan ng isang tao depende sa kasarian ng taong kinaaakitan nila, kunwari ay parehong kasarian, magkaibang kasarian, dalawang kasarian, lahat ng kasarian, atbp. <br>' +
@@ -103,10 +104,11 @@ var sogieFilipinoTranslation = function() {
     document.getElementsByTagName('td')[10].innerHTML = "Ang mga usapin at kaso tungkol sa SOGIE ay mas mabibigyang atensyon.";
 }
 
-var opinionsFilipinoTranslation = function () {
+var opinionsFilipinoTranslation = function () { // "Opinions" / "Mga Opinyon" translation
   document.getElementById("warning").innerHTML = '<b> Mangyaring tandaan: </b>' +
     "Ang mga mensaheng hindi kanais-nais ay hindi ilalagay sa talaan ng mga mensahe.";
   
+  // form translation
   document.getElementsByTagName('legend')[0].innerHTML = "Mga Opinyon";
   document.getElementsByTagName('label')[0].innerHTML = "Pangalan/Alyas:";
   document.getElementsByTagName('label')[1].innerHTML = "Okupasyon:";
@@ -119,7 +121,7 @@ var opinionsFilipinoTranslation = function () {
   document.getElementsByTagName('input')[7].setAttribute("value", "Isumite");
 }
 
-var statisticsFilipinoTranslation = function () {
+var statisticsFilipinoTranslation = function () { // "LGBT Community" / "Tungkol sa mga LGBT" translation
   document.getElementsByTagName('h2')[0].innerHTML = "Mga Istatistika tungkol sa LGBT";
   
   document.getElementsByTagName('h4')[0].innerHTML = "Pilipinas";
@@ -152,7 +154,7 @@ var statisticsFilipinoTranslation = function () {
     "Iran, Sudan, Saudi Arabia, Yemen, Somalia, Nigeria, Syria and Iraq.";
 } 
 
-var lgbtFilipinoTranslation = function () {
+var lgbtFilipinoTranslation = function () { // "LGBT in the Philippines" / "LGBT sa Pilipinas" translation
   document.getElementsByTagName('h2')[0].innerHTML = "Mga Makabuluhang Pro-LGBT na Grupo sa Pilipinas";
     document.getElementsByTagName('p')[0].innerHTML = '<b> Task Force Pride Philippines </b> <br>' +
       "Ang opisyal na tagapag-ayos ng taunang LGBT Pride March ay ang Task Force Pride (TFP) Philippines. " +
@@ -176,7 +178,7 @@ var lgbtFilipinoTranslation = function () {
       "Bilang isang miyembro ng LGBT, siya ay isa sa mga matapat na tagapagtanggol ng SOGIE Bill.";
 }
 
-var newsFilipinoTranslation = function () {
+var newsFilipinoTranslation = function () { // "News" / "Mga Balita" translation
   document.getElementById('summary').innerHTML = "Buod ng mga huling balita:";
   document.getElementsByTagName('p')[0].innerHTML = "Ang SOGIE Equality Bill ay hindi pa naaprubahan, at sa kasamaang palad " +
     "ay mukhang hindi ito maaaprubahan sa ngayon, ayon nga sa isinaad ng ating Presidente ng Senato na si Tito Sotto: " +
@@ -184,7 +186,7 @@ var newsFilipinoTranslation = function () {
     "Gamit ang impormasyon sa website na ito, baka ika'y makagagawa ng isang opinyong mas may kaalaman kaysa kay Presidente Sotto."
 }
 
-var jeromeFilipinoTranslation = function () {
+var jeromeFilipinoTranslation = function () { // Jerome's profile translation
   document.getElementsByTagName('p')[0].innerHTML = 'He/Him || 15 || Ateneo de Manila Grade School <br>' +
     "Sa tingin ko, mas may benepisyo sa mga mamamayan ang SOGIE Equality Bill. " +
     "Higit na ginugusto ko na may mga sistema ng edukasyon na balak nitong ipatupad, " +
@@ -193,7 +195,7 @@ var jeromeFilipinoTranslation = function () {
   
 }
 
-var mikeyFilipinoTranslation = function () {
+var mikeyFilipinoTranslation = function () { // Mikey's profile translation
   document.getElementsByTagName('p')[0].innerHTML = 'He/Him || 16 || University of the Philippines Integrated School <br>' +
     "Sa aking opinyon, ang mga kilos ng diskriminasyon ay dapat maging mas malawak ang sakop, " + 
     "at hindi limitado lamang sa diskriminsayon sa kasarian, na tinutukoy ng batas. " +
@@ -204,7 +206,7 @@ var mikeyFilipinoTranslation = function () {
     
 }
 
-var rainFilipinoTranslation = function () {
+var rainFilipinoTranslation = function () { // Rain's profile translation
   document.getElementsByTagName('p')[0].innerHTML = "She/Her || 15 || St. Mary's Academy of Sta.Ana, Manila <br>" +
     "Ang pangunahing hangad ng SOGIE Bill ay ang maprotektahan ang mga interes, hindi lamang ng " +
     "mga nasa Komunidad ng LGBTQI+, kundi pati na rin sa lahat ng Pilipino, kaya't " +
@@ -213,7 +215,7 @@ var rainFilipinoTranslation = function () {
     "ekspresyon nang hindi nakararanas ng diskriminasyon dahil sa mga pamantayan ng ating lipunan.";
 }
 
-var rateFilipinoTranslation = function () {
+var rateFilipinoTranslation = function () { // form translation | applied to all profiles
   document.getElementsByTagName('legend')[0].innerHTML = "Bigyan ng grado ang aming website!";
   document.getElementsByTagName('label')[0].innerHTML = "Grado (1 to 10):";
   document.getElementsByTagName('label')[1].innerHTML = "Rason ng grado:";
